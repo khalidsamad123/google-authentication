@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <link rel="stylesheet" href="">
+    <title>One Bite</title>
+    <link rel="stylesheet" href="<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+   
+    
+
+      <!-- container div -->
+    <div class="container">
+
+        <!-- upper button section to select
+			the login or signup form -->
+        <div class="slider"></div>
+        <div class="btn">
+            <button class="login">Admin</button>
+            <button class="signup">Customer</button>
+        </div>
+
+        <!-- Form section that contains the
+			login and the signup form -->
+        <div class="form-section">
+
+            <!-- login form -->
+            <div class="login-box">
+                <input id="restaurent" type="text" class="email ele" placeholder="Your restaurent name">
+                <input id="phone" type="number" class="email ele" placeholder="your phone number">
+                <input id="aemail" type="email" class="email ele" placeholder="youremail@email.com">
+                <input id="apassword" type="password" class="password ele" placeholder="password">
+                <button id="asignup" class="clkbtn">Register</button>
+                <button id="google"><svg id="icone" xmlns="http://www.w3.org/2000/svg" height="16" width="15.25" viewBox="0 0 488 512"><!--!Font Awesome Free 6.5.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license/free Copyright 2023 Fonticons, Inc.--><path d="M488 261.8C488 403.3 391.1 504 248 504 110.8 504 0 393.2 0 256S110.8 8 248 8c66.8 0 123 24.5 166.3 64.9l-67.5 64.9C258.5 52.6 94.3 116.6 94.3 256c0 86.5 69.1 156.6 153.7 156.6 98.2 0 135-70.4 140.8-106.9H248v-85.3h236.1c2.3 12.7 3.9 24.9 3.9 41.4z"/></svg>Signup with Google</button>
+               
+                
+            </div>
+
+            <!-- signup form -->
+            <div class="signup-box">
+                <input id="first" type="text" class="name ele" placeholder="First Name">
+                <input id="last" type="text" class="email ele" placeholder="Last Name">
+                <input id="uemail" type="email" class="password ele" placeholder="youremail@email.com">
+                <input id="upassword" type="password" class="password ele" placeholder="password">
+                <button id="usignup" class="clkbtn">Signup</button>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="admin.js"></script>
+    <script type="module" src="customer.js"></script>
+    <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+</body>
+
+</html>
